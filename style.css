@@ -1,0 +1,71 @@
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+body {
+margin: 0px;
+min-height: 100%;
+width: 100%;
+background-color: white  ;
+}
+
+#buttonRow{
+  background-color: #fffff0;
+  border-radius: 25px;
+  padding: 2%;
+}
+
+#simulateWeather{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#logo{
+    height: 5%;
+    width: 5%;
+}
+
+#bigContainer{
+  background-color: #fffff0;
+  border-radius: 25px;
+  margin-top: 3%;
+}
+
+html {
+margin: 0px;
+height: 100%;
+width: 100%;
+}
+
+#title_row{
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+#buttonNext{
+  margin-left: 2%;
+  margin-top: auto;
+}
+#buttonContainer{
+
+  padding-top: 3%;
+  display: block;
+}
+
+#poster1{
+  display: block;
+  margin: auto;
+}
+#block2{
+  display: block;
+  margin-right:  auto;
+  margin-left: auto;
+}
