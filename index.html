@@ -30,27 +30,31 @@
     <img src="logo.svg" id="logo" class="my-2 my-md-0">
 </nav>
 
+
+
+
+
 <p></p>
 <div id="buttonRow" class="container border animated">
-    <div class="row btn-group justify-content-center" style="width:100%" id="buttonRowFeelings">
+    <div class="row btn-group justify-content-center" id="buttonGroup" style="width:100%" id="buttonRowFeelings">
         <div class="col-md-2">
-            <button type="button" class="p-2 btn btn-light-green btn-block" onclick="getLocation(1)">Relaxed</button>
+            <button id="buttonFeelings" type="button" class="p-2 btn btn-light-green btn-block" onclick="getLocation(1)">Relaxed</button>
         </div>
 
         <div class="col-md-2">
-            <button type="button" class="p-2 btn btn-danger btn-block" onclick="getLocation(2)">Mad >:(</button>
+            <button id="buttonFeelings" type="button" class="p-2 btn btn-danger btn-block" onclick="getLocation(2)">Mad >:(</button>
         </div>
 
         <div class="col-md-2">
-            <button type="button" class="p-2 btn btn-primary btn-block" onclick="getLocation(3)">I'm blue :/</button>
+            <button id="buttonFeelings" type="button" class="p-2 btn btn-primary btn-block" onclick="getLocation(3)">I'm blue :/</button>
         </div>
 
         <div class="col-md-2">
-            <button type="button" class="p-2 btn btn-info btn-dark-green btn-block" onclick="getLocation(4)">I'm good :)</button>
+            <button id="buttonFeelings" type="button" class="p-2 btn btn-info btn-dark-green btn-block" onclick="getLocation(4)">I'm good :)</button>
         </div>
 
         <div class="col-md-2">
-            <button type="button" class="p-2 btn btn-purple btn-block" onclick="getLocation(5)">Frisky >:)</button>
+            <button id="buttonFeelings" type="button" class="p-2 btn btn-purple btn-block" onclick="getLocation(5)">Frisky >:)</button>
         </div>
     </div>
     <div class="row justify-content-center" id="simulateWeatherTooltip">
@@ -69,8 +73,8 @@
 
   <div class="container" id="buttonContainer">
     <div class="row" id="buttonNext" class="invisible">
-                <button type="button" class="btn btn-info " onclick="window.location.reload()" style="margin-right: 5px" >Refresh</button>
-                <button type="button" id="buttonNextExact" class="btn btn-success" onclick="getMovieData(finalURL,current_movie)">Next</button>
+                <button type="button" id="buttonRefreshExact"class="btn btn-info  " onclick="window.location.reload()" style="margin-right: 5px" >Refresh</button>
+                <button type="button" id="buttonNextExact " class="btn btn-success" onclick="getMovieData(finalURL,current_movie)">Next</button>
     </div>
   </div>
 

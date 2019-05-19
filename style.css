@@ -15,6 +15,19 @@ width: 100%;
 background-color: white  ;
 }
 
+@media (max-width: 576px) {
+  #buttonGroup{
+    margin: auto;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+#buttonFeelings{
+  margin-bottom: 5%;
+
+}
+}
+
 #buttonRow{
   background-color: #fffff0;
   border-radius: 25px;
@@ -71,6 +84,7 @@ width: 100%;
 
   padding-top: 3%;
   display: block;
+  
 }
 
 #poster1{
